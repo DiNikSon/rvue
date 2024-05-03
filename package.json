@@ -10,12 +10,14 @@
     "deploy": "node scripts/gh-pages-deploy.cjs"
   },
   "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.8",
-    "execa": "latest"
+    "execa": "latest",
+    "vite": "^5.2.8"
   }
 }
